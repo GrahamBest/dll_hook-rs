@@ -1,0 +1,15 @@
+[package]
+name = "dll_hook-rs" # the name of the package
+version = "0.1.0"    # the current version, obeying semver
+authors = ["verideth"]
+
+[lib]
+crate-type = ["dylib"] # could be `staticlib` as well
+
+[dependencies]
+gcc = "0.3"
+winapi = "0.2.8"
+detour = "0.1.0"
+user32-sys = "0.1"
+kernel32-sys = "0.2.2"	
+lazy_static = "0.2"
