@@ -66,7 +66,7 @@ fn init() {
     println!("Initializing...");
 
     let closure_for_createmove = |input_sample_time, cmd| {
-        println!("fuck weebs, heres the detour. put your code in here");
+        println!("heres the detour. put your code in here");
     
         return (fn_ptrs.addy)(input_sample_time, cmd);
     };  
